@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptPractice</title>
+</head>
+<body>
+    
+
+    <script>
+/*
+problem solving
+
+    let answer = parseInt(prompt("please enter a number you would like to FizzBuzz up to: "));
+
+    for (let i = 1; i <= answer; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else {
+        console.log(i);
+        }
+    }
+*/
+
+//common type errors
+
+//Reference eeror
+   /* const a = "Hello"
+    const b = "World"
+
+    function add() {
+     return c;
+    }
+
+    function print() {
+    add();
+    }
+
+    print();
+    */
+// Syntax error
+
+/*Function hello World() {
+    console.log "hello world!"
+}
+*/
+//Type of error
+/*let a = "hello";
+let b = "world";
+let c = a.push(b);
+console.log(c);
+*/
+
+//Rock paper scissors practice
+
+
+
+function getComputerChoice(){
+    const choices = ["rock", "paper", "scissors"];
+    randomNumber = Math.floor(Math.random () * 3);
+    return choices[randomNumber];
+  }
+console.log(getComputerChoice());
+/*
+function playRound(playerSelection, computerSelection) {
+    if (playerSelection === computerSelection) {
+        return `It's a tie! you both picked ${playerSelection}`;
+    } else if (playerSelection === "rock" && computerSelection === "scissors") {
+        return "You win! Rock beats Scissors";
+    } else if (playerSelection === "paper" && computerSelection === "rock") {
+        return "You win! Paper beats Rock";
+    } else if (playerSelection === "scissors" && computerSelection === "paper") {
+        return "You win! Scissors beats Paper";
+    } else {
+        return `You lose! ${computerSelection} beats ${playerSelection}`;
+    }
+}
+const playerSelection = prompt("Start the game by picking among 'Rock, Paper or Scissors'").toLowerCase();
+const computerSelection = getComputerChoice();
+*/
+
+
+
+
+
+    </script>
+</body>
+</html>
