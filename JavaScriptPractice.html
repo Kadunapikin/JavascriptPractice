@@ -66,27 +66,30 @@ function getComputerChoice(){
     randomNumber = Math.floor(Math.random () * 3);
     return choices[randomNumber];
   }
-console.log(getComputerChoice());
-/*
-function playRound(playerSelection, computerSelection) {
-    if (playerSelection === computerSelection) {
-        return `It's a tie! you both picked ${playerSelection}`;
-    } else if (playerSelection === "rock" && computerSelection === "scissors") {
-        return "You win! Rock beats Scissors";
-    } else if (playerSelection === "paper" && computerSelection === "rock") {
-        return "You win! Paper beats Rock";
-    } else if (playerSelection === "scissors" && computerSelection === "paper") {
-        return "You win! Scissors beats Paper";
-    } else {
-        return `You lose! ${computerSelection} beats ${playerSelection}`;
-    }
-}
-const playerSelection = prompt("Start the game by picking among 'Rock, Paper or Scissors'").toLowerCase();
-const computerSelection = getComputerChoice();
-*/
 
-
-
+  function game(userChoice) {
+    const computerChoice = getComputerChoice();
+    console.log("user Choice => " + userChoice);
+    console.log("computer Choice => " + computerChoice);
+  switch (userChoice + computerChoice) {
+    case "rockscissors":
+    case "paperrock":
+    case "scissorspaper":
+        console.log("USER WINS");
+        break;
+    case "rockpaper":
+    case "paperscissors":
+    case "scissorsrock":
+        console.log("USER LOSES");
+        break;
+    case "rockrock":
+    case "paperpaper":
+    case "scissorsscissors":
+        console.log("IT\'S A DRAW");
+        break;
+  }
+  }
+game("rock");
 
 
     </script>
