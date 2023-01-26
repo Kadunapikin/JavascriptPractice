@@ -17,3 +17,7 @@ document.getElementById("demo5").innerHTML = students
 students [3] = "Bakyung";
 document.getElementById("demo6").innerHTML = students
 
+// Arrays as objects
+const person = {firstname:"John", lastname:"Doe", age:46};
+document.getElementById("demo7").innerHTML = person.firstname 
+
