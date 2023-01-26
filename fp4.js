@@ -21,3 +21,8 @@ document.getElementById("demo6").innerHTML = students
 const person = {firstname:"John", lastname:"Doe", age:46};
 document.getElementById("demo7").innerHTML = person.firstname 
 
+// Array Properties and Methods
+// The length Property
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo8").innerHTML = fruits.length
+
