@@ -53,3 +53,6 @@ document.getElementById("demo13").innerHTML = type
 //A new ECNAScript 5 new method Array.isArray(): solves this
 Array.isArray(fruits);
 document.getElementById("demo14").innerHTML = Array.isArray(fruits);
+
+//Converting Arrays to Strings
+document.getElementById("demo15").innerHTML = fruits.toString();
