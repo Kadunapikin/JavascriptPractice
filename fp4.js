@@ -56,3 +56,9 @@ document.getElementById("demo14").innerHTML = Array.isArray(fruits);
 
 //Converting Arrays to Strings
 document.getElementById("demo15").innerHTML = fruits.toString();
+//Joining Array elements
+document.getElementById("demo16").innerHTML = fruits.join(" * ");
+
+//Popping and Pushing
+document.getElementById("demo17").innerHTML = fruits
+document.getElementById("demo18").innerHTML = fruits.pop();
