@@ -76,3 +76,9 @@ document.getElementById("demo22").innerHTML = fruits
 document.getElementById("demo23").innerHTML = fruits
 delete fruits[1];
 document.getElementById("demo24").innerHTML = fruits
+
+//Merging (Concatenating) Arrays
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+const myChildren = myGirls.concat(myBoys);
+document.getElementById("demo25").innerHTML = myChildren
