@@ -66,3 +66,8 @@ document.getElementById("demo18").innerHTML = fruits.pop();
 //Shifting Elements
 document.getElementById("demo19").innerHTML = fruits
 document.getElementById("demo20").innerHTML = fruits.shift();
+
+//JavaScript Array unshift()
+document.getElementById("demo21").innerHTML = fruits
+fruits.unshift("Lemon");
+document.getElementById("demo22").innerHTML = fruits
