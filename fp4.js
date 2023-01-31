@@ -71,3 +71,8 @@ document.getElementById("demo20").innerHTML = fruits.shift();
 document.getElementById("demo21").innerHTML = fruits
 fruits.unshift("Lemon");
 document.getElementById("demo22").innerHTML = fruits
+
+//JavaScript Array delete()
+document.getElementById("demo23").innerHTML = fruits
+delete fruits[1];
+document.getElementById("demo24").innerHTML = fruits
