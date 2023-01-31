@@ -62,3 +62,7 @@ document.getElementById("demo16").innerHTML = fruits.join(" * ");
 //Popping and Pushing
 document.getElementById("demo17").innerHTML = fruits
 document.getElementById("demo18").innerHTML = fruits.pop();
+
+//Shifting Elements
+document.getElementById("demo19").innerHTML = fruits
+document.getElementById("demo20").innerHTML = fruits.shift();
