@@ -38,6 +38,10 @@ for (let i = 0; i < fruits.length; i++) {
 text += "</ul>";
 document.getElementById("demo10").innerHTML = text
 
-//Addirray Elements
+//Adding Array Elements
 fruits.push("Lemon");
 document.getElementById("demo11").innerHTML = fruits
+//Adding Array Elements using the length property
+let pruits = ["Banana", "Orange", "Mango"];
+pruits[pruits.length] = "Lemon";
+document.getElementById("demo12").innerHTML = pruits
