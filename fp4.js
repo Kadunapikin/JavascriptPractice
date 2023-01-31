@@ -29,3 +29,11 @@ document.getElementById("demo8").innerHTML = fruits.length
 //Accessing the Last Array Element
 let fruit = fruits[fruits.length - 1];
 document.getElementById("demo9").innerHTML = fruit
+
+//Looping Array Elements
+let text = "<ul>"
+for (let i = 0; i < fruits.length; i++) {
+    text += "<li>" + fruits[i] + "</li>";
+} 
+text += "</ul>";
+document.getElementById("demo10").innerHTML = text
