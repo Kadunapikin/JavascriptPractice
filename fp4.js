@@ -45,3 +45,11 @@ document.getElementById("demo11").innerHTML = fruits
 let pruits = ["Banana", "Orange", "Mango"];
 pruits[pruits.length] = "Lemon";
 document.getElementById("demo12").innerHTML = pruits
+
+//How to Recognize an Array
+//A type of property returns an object
+let type = typeof(fruits);
+document.getElementById("demo13").innerHTML = type
+//A new ECNAScript 5 new method Array.isArray(): solves this
+Array.isArray(fruits);
+document.getElementById("demo14").innerHTML = Array.isArray(fruits);
