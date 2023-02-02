@@ -95,4 +95,9 @@ document.getElementById("demo27").innerHTML = fruits
 fruits.splice(2, 0, "Guava", "Cashew");
 document.getElementById("demo28").innerHTML = fruits
 
+//JavaScript Array splice()
+document.getElementById("demo29").innerHTML = fruits
+fruits.splice(0, 1);
+document.getElementById("demo30").innerHTML = fruits
+
 
