@@ -59,7 +59,7 @@ document.getElementById("demo15").innerHTML = fruits.toString();
 //Joining Array elements
 document.getElementById("demo16").innerHTML = fruits.join(" * ");
 
-//Popping and Pushing
+//Popping 
 document.getElementById("demo17").innerHTML = fruits
 document.getElementById("demo18").innerHTML = fruits.pop();
 
@@ -82,3 +82,17 @@ const myGirls = ["Cecilie", "Lone"];
 const myBoys = ["Emil", "Tobias", "Linus"];
 const myChildren = myGirls.concat(myBoys);
 document.getElementById("demo25").innerHTML = myChildren
+
+//Merging three Arrays
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin", "Morgan"];
+const myChuldren = arr1.concat(arr2, arr3); 
+document.getElementById("demo26").innerHTML = myChuldren
+
+//JavaScript Array splice()
+document.getElementById("demo27").innerHTML = fruits
+fruits.splice(2, 0, "Guava", "Cashew");
+document.getElementById("demo28").innerHTML = fruits
+
+
