@@ -100,4 +100,11 @@ document.getElementById("demo29").innerHTML = fruits
 fruits.splice(0, 1);
 document.getElementById("demo30").innerHTML = fruits
 
+//JavaScript Array slice()
+const food = ["maize", "rice", "beans", "yam"];
+document.getElementById("demo31").innerHTML = food
+const citrus = food.slice(1);
+document.getElementById("demo32").innerHTML = citrus 
+
+
 
