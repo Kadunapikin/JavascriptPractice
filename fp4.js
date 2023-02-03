@@ -101,10 +101,16 @@ fruits.splice(0, 1);
 document.getElementById("demo30").innerHTML = fruits
 
 //JavaScript Array slice()
-const food = ["maize", "rice", "beans", "yam"];
-document.getElementById("demo31").innerHTML = food
-const citrus = food.slice(1);
+const foods = ["maize", "rice", "beans", "yam", "soya"];
+document.getElementById("demo31").innerHTML = foods
+const citrus = foods.slice(1);
 document.getElementById("demo32").innerHTML = citrus 
+
+//Slice() method with two parameters
+document.getElementById("demo33").innerHTML = foods
+const grape = foods.slice(1,3);
+document.getElementById("demo34").innerHTML = grape 
+
 
 
 
