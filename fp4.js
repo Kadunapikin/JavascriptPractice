@@ -111,6 +111,10 @@ document.getElementById("demo33").innerHTML = foods
 const grape = foods.slice(1,3);
 document.getElementById("demo34").innerHTML = grape 
 
+//Automatic toString()
+document.getElementById("demo35").innerHTML = foods.toString();
+document.getElementById("demo36").innerHTML = foods
+
 
 
 
