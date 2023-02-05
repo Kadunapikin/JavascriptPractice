@@ -117,4 +117,3 @@ document.getElementById("demo36").innerHTML = foods
 
 
 
-
