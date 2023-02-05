@@ -17,8 +17,8 @@ Create two different arrays (myBoys and myGirls) and then wite a code to concat 
 Write a code to splice guava and cashew into fruits array and display the outcome on the html page.
 Write a code to splice lemon out of fruits array and display the outcome on the html page.
 Write a code to slice rice, beans, yam and soya from foods array into citrus array and display the outcome on the html page.
-Write a code to slice out rice and beans element from foods array into grape array and display the outcome on the html page.
-Write a code to covert foods array to a comma separated strings and display the outcome on the html page.
+Write a code to slice out rice and beans elements from foods array into grape array and display the outcome on the html page.
+Write a code to covert foods array to a comma separated strings and display the outcome on the html page. 
 
 
 
