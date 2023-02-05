@@ -12,3 +12,9 @@ function toUpper(string) {
 const upperCats = cats.map(toUpper);
 console.log(upperCats);
 
+//Using a filter()
+function Lcats(cats) {
+    return cats.startsWith('L');
+}
+const filtered = cats.filter(Lcats);
+console.log(filtered);
