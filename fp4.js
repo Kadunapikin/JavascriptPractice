@@ -115,5 +115,3 @@ document.getElementById("demo34").innerHTML = grape
 document.getElementById("demo35").innerHTML = foods.toString();
 document.getElementById("demo36").innerHTML = foods
 
-
-
