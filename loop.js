@@ -18,3 +18,8 @@ function Lcats(cats) {
 }
 const filtered = cats.filter(Lcats);
 console.log(filtered);
+
+//Rewritting for...of using for loop
+for (let i = 0; i < cats.length; i++) {
+    console.log(cats[i]);   
+}
