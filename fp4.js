@@ -114,4 +114,3 @@ document.getElementById("demo34").innerHTML = grape
 //Automatic toString()
 document.getElementById("demo35").innerHTML = foods.toString();
 document.getElementById("demo36").innerHTML = foods
-

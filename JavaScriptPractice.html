@@ -10,8 +10,8 @@
     
 
     <script>
-/*
-problem solving
+
+//problem solving
 
     let answer = parseInt(prompt("please enter a number you would like to FizzBuzz up to: "));
 
@@ -26,7 +26,7 @@ problem solving
         console.log(i);
         }
     }
-*/
+
 
 //common type errors
 
@@ -61,16 +61,26 @@ console.log(c);
 
 
 
-function getComputerChoice(){
+/*function getComputerChoice(){
     const choices = ["rock", "paper", "scissors"];
     randomNumber = Math.floor(Math.random () * 3);
     return choices[randomNumber];
   }
+  */
 
-  function game(userChoice) {
-    const computerChoice = getComputerChoice();
-    console.log("user Choice => " + userChoice);
-    console.log("computer Choice => " + computerChoice);
+  /*
+  const choices = ['rock', 'paper', 'scissors'];
+    function computerChoice(){
+    return choices[Math.floor(Math.random()*choices.length)];
+  }
+
+
+  function userChoice() {
+    let input = prompt("Start the game by picking among 'Rock, Paper or Scissors'");
+    return input.toLowerCase(userChoice); 
+}
+
+  function playRound(userChoice, computerChoice) {
   switch (userChoice + computerChoice) {
     case "rockscissors":
     case "paperrock":
@@ -88,9 +98,12 @@ function getComputerChoice(){
         console.log("IT\'S A DRAW");
         break;
   }
-  }
-game("rock");
-
+}
+//const computerChoice = getComputerChoice();
+    console.log(computerChoice());
+    console.log(userChoice());
+    console.log(playRound());
+*/
 
     </script>
 </body>
