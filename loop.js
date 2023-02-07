@@ -23,7 +23,7 @@ console.log(filtered);
 for (let i = 0; i < cats.length; i++) {
     console.log(cats[i]);   
 }
-
+/*
 //Exiting loops with break
 const contacts = ['Chris:2232322', 'Sarah:3453456', 'Bill:7654322', 'Mary:9998769', 'Dianne:9384975'];
 const para = document.querySelector('p');
@@ -46,4 +46,29 @@ if (para.textContent === '') {
     para.textContent = 'Contact not found';
 }
 });
+*/
 
+//Skipping iterations with continue
+const para = document.querySelector('p');
+const input = document.querySelector('input');
+const btn = document.querySelector('button');
+
+btn.addEventListener('click', () => {
+    para.textContent = 'Output: ';
+    const num = input.value;
+    input.value = '';
+    input.focus();
+    /*
+    for (let i = 1; i <= num; i++) {
+        let sqRoot = Math.sqRoot(1);
+        if (Math.floor(sqRoot) !== sqRoot) {
+            continue;
+            */
+            for (let i = 1; i <= num; i++) {
+                let sqRoot = Math.sqrt(i);
+                if (Math.floor(sqRoot) !== sqRoot) {
+                  continue;
+        }
+        para.textContent += `${i} `;
+    }
+});
