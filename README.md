@@ -38,4 +38,5 @@ link the tddExercise.js file to the html file
 Write a function helloWorld that returns the phrase `Hello, World!`
 Write a function that simply repeats the string a given number of times:
 write a function called `reverseString` that returns its input, reversed!
-Implement a function that takes an array and some other arguments then removes the other arguments from that array:
+Implement a function that takes an array and some other arguments then removes the other arguments from that array
+Implement a function that takes 2 integers and returns the sum of every number between(and including) them

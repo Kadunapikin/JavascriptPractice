@@ -40,5 +40,24 @@ const removeFromArray = function(...items) {
     });
     return newArray;
     };
+
+    //Implement a function that takes 2 integers and returns the sum of every number between(and including) them
+    const sumAll = function(a, b) {
+        if (a > b) {
+            [a, b] = [b, a];
+        }
+        if (a < 0 || b < 0) {
+            return 'ERROR';
+        }
+        if (typeof a != 'number' || typeof b != 'number') {
+            return 'ERROR';
+        }
+        let sum = 0;
+        for (let i = a; i <= b; i++) {
+            sum += i;
+        }
+        return sum;
+        };
+        
     
     
