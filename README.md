@@ -35,3 +35,4 @@ Write a code to skip iterations with continue statement.
 JavaScript TDD Exercise
 create a tddExercise.html and tddExercise.js file
 link the tddExercise.js file to the html file
+Write a function helloWorld that returns the phrase `Hello, World!`
