@@ -19,4 +19,13 @@ const helloWorld = function() {
 const reverseString = function (string) {
     return string.split('').reverse().join('');
     };
+
+//using loop
+function reverseString(str) {
+    const newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
     
