@@ -31,3 +31,6 @@ Write a code to filter cats elements that startsWith ('L') and return it in a fi
 Rewrite the for...of loop codes for cats array using the standard for loop code.
 Write a code to search through an array of contacts and telephone numbers and return just the number we want to find.
 Write a code to skip iterations with continue statement.
+
+JavaScript TDD Exercise
+create a tddExercise.html and tddExercise.js file
