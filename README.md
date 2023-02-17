@@ -34,3 +34,4 @@ Write a code to skip iterations with continue statement.
 
 JavaScript TDD Exercise
 create a tddExercise.html and tddExercise.js file
+link the tddExercise.js file to the html file
