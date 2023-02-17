@@ -14,3 +14,9 @@ const helloWorld = function() {
      }
      return string;
 }
+
+//write a function called `reverseString` that returns its input, reversed!
+const reverseString = function (string) {
+    return string.split('').reverse().join('');
+    };
+    
