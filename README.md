@@ -25,5 +25,26 @@ Create two different arrays (myBoys and myGirls) and then wite a code to concat 
 Write a code to splice guava and cashew into fruits array and display the outcome on the html page.
 Write a code to splice lemon out of fruits array and display the outcome on the html page.
 Write a code to slice rice, beans, yam and soya from foods array into citrus array and display the outcome on the html page.
-Write a code to slice out rice and beans element from foods array into grape array and display the outcome on the html page.
-Write a code to covert foods array to a comma separated strings and display the outcome on the html page.
+Write a code to slice out rice and beans elements from foods array into grape array and display the outcome on the html page.
+Write a code to covert foods array to a comma separated strings and display the outcome on the html page. 
+
+JavaScript loops
+*This is about understanding JavaScript loops*
+Create a loop.html and loop.js file
+link the loop.js file on the loop.html file
+Create a cats array with Leopard, Jaguar, Tiger and Lion as elements
+Write a code to loop through the cats elements and console.log each element as a cat
+Write a code to return all cats array elements in upperCase
+Write a code to filter cats elements that startsWith ('L') and return it in a filtered array
+Rewrite the for...of loop codes for cats array using the standard for loop code.
+Write a code to search through an array of contacts and telephone numbers and return just the number we want to find.
+Write a code to skip iterations with continue statement.
+
+JavaScript TDD Exercise
+create a tddExercise.html and tddExercise.js file
+link the tddExercise.js file to the html file
+Write a function helloWorld that returns the phrase `Hello, World!`
+Write a function that simply repeats the string a given number of times:
+write a function called `reverseString` that returns its input, reversed!
+Implement a function that takes an array and some other arguments then removes the other arguments from that array
+Implement a function that takes 2 integers and returns the sum of every number between(and including) them

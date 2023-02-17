@@ -26,8 +26,6 @@ document.getElementById("demo7").innerHTML = person.firstname
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo8").innerHTML = fruits.length
 
-<<<<<<< HEAD
-=======
 //Accessing the Last Array Element
 let fruit = fruits[fruits.length - 1];
 document.getElementById("demo9").innerHTML = fruit
@@ -116,5 +114,3 @@ document.getElementById("demo34").innerHTML = grape
 //Automatic toString()
 document.getElementById("demo35").innerHTML = foods.toString();
 document.getElementById("demo36").innerHTML = foods
-
->>>>>>> a749c2cd28b1e9ad9886cac81d66506e5009cf4f
