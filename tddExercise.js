@@ -28,4 +28,17 @@ function reverseString(str) {
     }
     return newString;
 }
+
+//Implement a function that takes an array and some other arguments then removes the other arguments from that array:
+const removeFromArray = function(...items) {
+    const array = items[0];
+    const newArray =[];
+    array.forEach((item) => {
+        if (!items.includes(item)) {
+            newArray.push(item)
+        }
+    });
+    return newArray;
+    };
+    
     
